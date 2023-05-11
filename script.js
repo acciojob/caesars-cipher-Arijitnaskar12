@@ -17,10 +17,10 @@ function rot13(encodedStr){
 		{
 			if(lookup[encodedStr[i]]==undefined)
 			{
-				decodedArr[i].push(encodedStr[i]);
+				decodedArr.push(encodedStr[i]);
 			}else
 			{
-				decodedArr[i].push(lookup[encodedStr[i]]);
+				decodedArr.push(lookup[encodedStr[i]]);
 			}
 		}
 
